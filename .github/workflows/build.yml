@@ -1,8 +1,8 @@
 name: build
 
 on:
-  release:
-  workflow_dispatch:
+  push:
+    branches: ["master"]
   
 jobs:
   build:
